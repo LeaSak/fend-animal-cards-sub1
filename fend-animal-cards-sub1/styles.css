@@ -1,0 +1,55 @@
+/* add your CSS here */
+
+/* Base styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #212;
+}
+
+
+/* Typography */
+h3 {
+  font-family: "Helvetica", sans-serif;
+}
+
+p,
+li {
+  font: 12px/140% "Garamond", serif;
+}
+
+.top-facts {
+  list-style: none;
+  padding-left: 0;
+}
+
+
+/* Content */
+img {
+  width: 300px;
+  padding: 2px 0 10px 0;
+}
+
+.border {
+  border: 1px solid #ddd;
+}
+
+.card {
+  width: 320px;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 6px 6px 2px 0px rgba(224,224,224,0.88);
+}
+
+.inner-wrapper {
+  margin: 0 auto;
+  width: 300px;
+  padding: 0 0 5px;
+}
+
+.animal-text {
+  padding: 0 10px 10px;
+  background-color: #fafafa;
+}
